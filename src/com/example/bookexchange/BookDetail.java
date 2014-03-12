@@ -14,10 +14,18 @@ public class BookDetail extends Activity {
 		setContentView(R.layout.activity_book_detail);
 		
 		Intent intent = getIntent();
-		String value = intent.getStringExtra("key");
+		String value = intent.getStringExtra("ISBNkey");
+		String bookName = intent.getStringExtra("nameKey");
+		String price = intent.getStringExtra("priceKey");
 		
 		TextView t = (TextView)findViewById(R.id.bookTitle);
-		t.setText(value);
+		t.setText(bookName);
+		
+		TextView t1 = (TextView)findViewById(R.id.isbn);
+		t1.setText(value);
+		
+		TextView t2 = (TextView)findViewById(R.id.price);
+		t2.setText(price);
 
 	}
 
