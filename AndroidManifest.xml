@@ -32,6 +32,18 @@
             android:name="com.example.bookexchange.BookListingActivity"
             android:label="@string/title_activity_book_listing" >
         </activity>
+        <activity
+            android:name="com.example.bookexchange.ListActivityMainActivity"
+            android:label="@string/title_activity_list_activity_main" >
+        </activity>
+        <activity
+            android:name="com.example.bookexchange.ListingActivity"
+            android:label="@string/title_activity_listing" >
+        </activity>
+        <activity
+            android:name="com.example.bookexchange.BookDetail"
+            android:label="@string/title_activity_book_detail" >
+        </activity>
     </application>
 
 </manifest>

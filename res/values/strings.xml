@@ -10,5 +10,8 @@
     <string name="login_button_label">Login</string>
     <string name="signUpText">SignUp</string>
     <string name="title_activity_book_listing">BookListingActivity</string>
+    <string name="title_activity_list_activity_main">MainActivity</string>
+    <string name="title_activity_listing">ListingActivity</string>
+    <string name="title_activity_book_detail">BookDetail</string>
 
 </resources>
