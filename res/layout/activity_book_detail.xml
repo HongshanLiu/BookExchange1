@@ -9,19 +9,19 @@
     tools:context=".BookDetail" >
 
     <TextView
-        android:id="@+id/bookTitle"
+        android:id="@+id/bookTitleTag"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView1"
+        android:layout_below="@+id/sellerTag"
         android:layout_centerHorizontal="true"
         android:text="@string/hello_world"
         android:textSize="32sp" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/priceStatic"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/bookTitle"
+        android:layout_below="@+id/bookTitleTag"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="24dp"
         android:text="ISBN:"
@@ -31,7 +31,7 @@
         android:id="@+id/isbn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView2"
+        android:layout_below="@+id/priceStatic"
         android:layout_centerHorizontal="true"
         android:text="Large Text"
         android:textAppearance="?android:attr/textAppearanceLarge"
@@ -59,7 +59,7 @@
         android:textSize="32dp" />
 
     <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/sellerTag"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"

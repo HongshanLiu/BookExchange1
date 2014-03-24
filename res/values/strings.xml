@@ -13,5 +13,6 @@
     <string name="title_activity_list_activity_main">MainActivity</string>
     <string name="title_activity_listing">ListingActivity</string>
     <string name="title_activity_book_detail">BookDetail</string>
+    <string name="title_activity_listing_activity_b">ListingActivityB</string>
 
 </resources>

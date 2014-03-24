@@ -18,7 +18,7 @@ public class BookDetail extends Activity {
 		String bookName = intent.getStringExtra("nameKey");
 		String price = intent.getStringExtra("priceKey");
 		
-		TextView t = (TextView)findViewById(R.id.bookTitle);
+		TextView t = (TextView)findViewById(R.id.bookTitleTag);
 		t.setText(bookName);
 		
 		TextView t1 = (TextView)findViewById(R.id.isbn);

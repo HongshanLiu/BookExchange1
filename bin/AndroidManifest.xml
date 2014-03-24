@@ -44,6 +44,10 @@
             android:name="com.example.bookexchange.BookDetail"
             android:label="@string/title_activity_book_detail" >
         </activity>
+        <activity
+            android:name="com.example.bookexchange.ListingActivityB"
+            android:label="@string/title_activity_listing_activity_b" >
+        </activity>
     </application>
 
 </manifest>

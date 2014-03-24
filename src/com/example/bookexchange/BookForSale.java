@@ -6,8 +6,8 @@ public class BookForSale extends Book {
 	public int Price;
 	public String Seller;
 
-	public BookForSale(String bookname, String isbn, String saleid, int price) {
-		super(bookname, isbn);
+	public BookForSale(String bookname, String isbn, String author, String saleid, int price) {
+		super(bookname, isbn, author);
 		// TODO Auto-generated constructor stub
 		SaleId = saleid;
 		Price = price;
@@ -29,6 +29,13 @@ public class BookForSale extends Book {
 		return Price;
 	}
 	
+	public void setSeller(String seller){
+		Seller = seller;
+	}
+	
+	public String getSeller(){
+		return Seller;
+	}
 	
 
 }
