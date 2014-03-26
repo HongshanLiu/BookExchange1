@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.TextView;
 
 public class LoginActivity extends Activity {
-	
+	//test
 	protected TextView mLoginTextView;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
